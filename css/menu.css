@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fd590733;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px 10px;
+}
+.heading{
+    background-color: #fa6908c5;
+    color: #ffffff;
+    margin-bottom: 50px;
+    padding: 80px 0 160px 0;
+    grid-column: 1/-1;
+    text-align: center;
+}
+.heading h1{
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.heading h3{
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.food-items{
+    display: grid;
+    /* position:relative; */
+    grid-template-columns:repeat(1, 1fr);
+    border-radius: 15px;
+    /* box-shadow: 0 0 10px rgba(230, 6, 6, 0.1); */
+    border: 1px solid rgba(77, 73, 73, 0.068);
+    margin: 20px 20px;
+}
+.food-items img{
+    /* position: relative; */
+    width:100%;
+    border-radius:15px 15px 0 0;
+}
+.details{
+    padding: 5px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 20px;
+    grid-row-gap: 15px;
+}
+.details p{
+    color: #222421;
+    font-weight: 700;
+    grid-template-columns: auto auto;
+}
+.details-sub h5{
+    font-weight: 600;
+    font-size: 18px;
+    color: #212422;
+}
+.price{
+    text-align: center;
+    color: #423f3f;
+}
+
+.details button{
+    background-color:transparent;
+    border:none;
+    color:#080808;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 0.4rem;
+    display: block;
+    cursor: pointer;
+    padding: 1rem;
+    outline: none;
+}
+
